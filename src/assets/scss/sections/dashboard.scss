@@ -1,0 +1,34 @@
+.s-dashboard {
+  padding: 100px 0;
+
+  &__menu {
+    width: 300px;
+    margin-right: 60px;
+    border-top: 1px solid $color-border;
+
+    ul {
+
+      li {
+        border-bottom: 1px solid $color-border;
+        
+        a {
+          display: block;
+          padding: 20px;
+          transition: color .3s ease;
+
+          &.active {
+            color: $color-primary;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  &__main {
+    flex: 1;
+  }
+}

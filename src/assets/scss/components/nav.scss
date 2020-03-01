@@ -1,0 +1,29 @@
+.c-nav {
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-right: 20px;
+      font-size: 14px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.u-mobile {
+        display: none;
+      }
+
+      @media (max-width: 767px) {
+        &.u-mobile {
+          display: block;
+        }
+        &.u-desktop {
+          display: none;
+        }
+      }
+    }
+  }
+}

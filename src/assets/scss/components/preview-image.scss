@@ -1,0 +1,23 @@
+.c-preview-image {
+  display: none;
+  border: 1px solid $color-primary;
+  padding: 5px;
+  margin-top: 10px;
+
+  &.active {
+    display: inline-flex;
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+  }
+}

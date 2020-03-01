@@ -1,0 +1,10 @@
+.c-form-box {
+  padding: 40px;
+  max-width: 600px;
+  background-color: rgba($color-light, 0.95);
+  width: 100%;
+
+  @media (max-width: 480px) {
+    padding: 40px 20px;
+  }
+}

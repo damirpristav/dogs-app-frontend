@@ -1,0 +1,24 @@
+.u-relative {
+  position: relative;
+  min-height: 300px;
+}
+
+.u-dot {
+  display: inline-flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  margin-right: 5px;
+
+  &--red {
+    background-color: red;
+  }
+}
+
+.u-hidden {
+  display: none;
+}
+
+.u-bold {
+  font-weight: 700;
+}

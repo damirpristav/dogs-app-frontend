@@ -1,0 +1,69 @@
+// Dogs
+export const GET_DOGS = 'GET_DOGS';
+export const GET_DOG = 'GET_DOG';
+export const ADD_DOG = 'ADD_DOG';
+export const UPDATE_DOG = 'UPDATE_DOG';
+export const DELETE_DOG = 'DELETE_DOG';
+export const SET_DOG_LOADING = 'SET_DOG_LOADING';
+export const SET_DOGS_LOADING = 'SET_DOGS_LOADING';
+export const DOG_RESET = 'DOG_RESET';
+export const SET_DOGS_ERROR = 'SET_DOGS_ERROR';
+export const RESET_DOGS_ERROR = 'RESET_DOGS_ERROR';
+
+// Auth
+export const LOGIN = 'LOGIN';
+export const REGISTER = 'REGISTER';
+export const CHECK_TOKEN = 'CHECK_TOKEN';
+export const LOGOUT = 'LOGOUT';
+export const SET_REDIRECT = 'SET_REDIRECT';
+export const SET_AUTH_ERROR = 'SET_AUTH_ERROR';
+export const SET_SCREEN_LOADING = 'SET_SCREEN_LOADING';
+export const UNSET_SCREEN_LOADING = 'UNSET_SCREEN_LOADING';
+export const RESET_AUTH_ERROR = 'RESET_AUTH_ERROR';
+export const RESET_AUTH_MESSAGE = 'RESET_AUTH_MESSAGE';
+export const ACTIVATE_ACCOUNT = 'ACTIVATE_ACCOUNT';
+export const FORGOT_PASSWORD = 'FORGOT_PASSWORD';
+export const RESET_PASSWORD = 'RESET_PASSWORD';
+
+// Users
+export const GET_ALL_USERS = 'GET_ALL_USERS';
+export const GET_USER = 'GET_USER';
+export const DELETE_USER = 'DELETE_USER';
+export const USER_LOADING = 'USER_LOADING';
+
+// Breeds 
+export const GET_BREEDS = 'GET_BREEDS';
+export const GET_BREED = 'GET_BREED';
+export const ADD_BREED = 'ADD_BREED';
+export const DELETE_BREED = 'DELETE_BREED';
+export const UPDATE_BREED = 'UPDATE_BREED';
+export const BREEDS_LOADING = 'BREEDS_LOADING';
+export const BREED_ERROR = 'BREED_ERROR';
+export const BREED_MESSAGE = 'BREED_MESSAGE';
+export const BREED_CLEANUP = 'BREED_CLEANUP';
+export const RESET_BREED_ERROR = 'RESET_BREED_ERROR';
+export const RESET_BREEDS = 'RESET_BREEDS';
+
+// Adoptions
+export const GET_ADOPTIONS = 'GET_ADOPTIONS';
+export const GET_ADOPTION = 'GET_ADOPTION';
+export const UPDATE_ADOPTION = 'UPDATE_ADOPTION';
+export const ADOPT_REQUEST = 'ADOPT_REQUEST';
+export const ADOPTIONS_LOADING = 'ADOPTIONS_LOADING';
+
+// Notifications
+export const GET_NOTIFICATIONS = 'GET_NOTIFICATIONS';
+export const GET_NOTIFICATION = 'GET_NOTIFICATION';
+export const DELETE_ALL_NOTIFICATIONS = 'DELETE_ALL_NOTIFICATIONS';
+export const DELETE_NOTIFICATION = 'DELETE_NOTIFICATION';
+export const MARK_NOTIFICATION_AS_SEEN = 'MARK_NOTIFICATION_AS_SEEN';
+export const NOTIFICATIONS_LOADING = 'NOTIFICATIONS_LOADING';
+
+// Gallery
+export const GET_IMAGES = 'GET_IMAGES';
+export const ADD_IMAGE = 'ADD_IMAGE';
+export const DELETE_IMAGE = 'DELETE_IMAGE';
+export const RESET_IMAGES = 'RESET_IMAGES';
+
+// Global
+export const RESET_MESSAGE = 'RESET_MESSAGE';

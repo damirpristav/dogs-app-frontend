@@ -1,0 +1,13 @@
+.c-alert {
+  padding: 20px;
+  color: #fff;
+  background-color: $color-border;
+  margin-bottom: 10px;
+
+  &--success {
+    background-color: $color-success;
+  }
+  &--error {
+    background-color: $color-error;
+  }
+}

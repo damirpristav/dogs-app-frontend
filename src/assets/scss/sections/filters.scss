@@ -1,0 +1,15 @@
+.s-filters {
+
+  .container {
+    display: flex;
+    align-items: center;
+
+    .c-checkbox {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 767px) {
+      flex-wrap: wrap;
+    }
+  }
+}

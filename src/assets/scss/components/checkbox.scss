@@ -1,0 +1,48 @@
+.c-checkbox {
+  position: relative;
+  
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: normal !important;
+
+    > span {
+      margin-left: 10px;
+    }
+  }
+
+  input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+
+  &__button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid $color-border;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border .3s ease;
+
+    span {
+      display: block;
+      width: 10px;
+      height: 10px;
+      background-color: $color-primary;
+      opacity: 0;
+      transition: opacity .3s ease;
+    }
+  }
+
+  input:checked ~ .c-checkbox__button {
+    border-color: $color-primary;
+
+    span {
+      opacity: 1;
+    }
+  }
+}

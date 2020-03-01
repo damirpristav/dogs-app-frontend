@@ -1,0 +1,39 @@
+.s-dogs {
+  padding: 40px 0 60px;
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+
+    .c-card {
+      width: 23%;
+      margin-right: calc(8/3 * 1%);
+      margin-bottom: 40px;
+
+      &:nth-child(4n+4) {
+        margin-right: 0;
+      }
+
+      @media (max-width: 767px) {
+        width: 48%;
+        margin-right: 4%;
+
+        &:nth-child(4n+4) {
+          margin-right: 4%;
+        }
+        &:nth-child(2n+2) {
+          margin-right: 0;
+        }
+      }
+
+      @media (max-width: 400px) {
+        width: 100%;
+        margin-right: 0;
+
+        &:nth-child(4n+4) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

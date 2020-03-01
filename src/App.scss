@@ -1,0 +1,48 @@
+// @import url('https://fonts.googleapis.com/css?family=Inria+Serif|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+// Abstracts
+@import "assets/scss/abstracts/variables.scss";
+
+// Base
+@import "assets/scss/base/1-reset.scss";
+@import "assets/scss/base/2-base.scss";
+@import "assets/scss/base/3-typography.scss";
+@import "assets/scss/base/4-utilities.scss";
+
+// Layout
+@import "assets/scss/layouts/container.scss";
+@import "assets/scss/layouts/flex.scss";
+
+// Elements
+@import "assets/scss/elements/btn.scss";
+@import "assets/scss/elements/form.scss";
+@import "assets/scss/elements/loader.scss";
+
+// Components
+@import "assets/scss/components/nav.scss";
+@import "assets/scss/components/form-box.scss";
+@import "assets/scss/components/card.scss";
+@import "assets/scss/components/table.scss";
+@import "assets/scss/components/gallery.scss";
+@import "assets/scss/components/preview-image.scss";
+@import "assets/scss/components/alert.scss";
+@import "assets/scss/components/dropdown.scss";
+@import "assets/scss/components/checkbox.scss";
+@import "assets/scss/components/infobox.scss";
+
+// Sections
+@import "assets/scss/sections/header.scss";
+@import "assets/scss/sections/footer.scss";
+@import "assets/scss/sections/hero.scss";
+@import "assets/scss/sections/dogs.scss";
+@import "assets/scss/sections/dashboard.scss";
+@import "assets/scss/sections/dog.scss";
+@import "assets/scss/sections/popup.scss";
+@import "assets/scss/sections/message.scss";
+@import "assets/scss/sections/landing.scss";
+@import "assets/scss/sections/title.scss";
+@import "assets/scss/sections/filters.scss";
+@import "assets/scss/sections/loading.scss";
+@import "assets/scss/sections/404.scss";
+@import "assets/scss/sections/side-drawer.scss";

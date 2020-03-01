@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+  height: 100%;
+}
+
+body {
+  font-family: $ff-primary;
+  font-size: 14px;
+  line-height: 1.6;
+  color: $color-secondary;
+}
+
+a {
+  color: $color-secondary;
+}
+
+.text-center {
+  text-align: center;
+}

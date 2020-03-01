@@ -1,0 +1,24 @@
+.header {
+  background-color: $color-primary;
+  padding: 24px 0;
+
+  &--transparent {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    .c-nav {
+
+      li {
+        color: $color-light;
+
+        a {
+          color: inherit;
+        }
+      }
+    }
+  }
+}
